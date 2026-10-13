@@ -21,7 +21,7 @@ import com.example.HellTrain.vo.OrderVo;
 import jakarta.servlet.http.HttpSession;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200/")
+//@CrossOrigin(origins = "http://localhost:4200/")
 @RequestMapping("/order")
 public class OrderController {
 

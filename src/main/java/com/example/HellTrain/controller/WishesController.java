@@ -17,7 +17,7 @@ import com.example.HellTrain.response.GetWishesRes;
 import com.example.HellTrain.service.WishService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200/")
+//@CrossOrigin(origins = "http://localhost:4200/")
 @RequestMapping("/wish")
 public class WishesController {
 

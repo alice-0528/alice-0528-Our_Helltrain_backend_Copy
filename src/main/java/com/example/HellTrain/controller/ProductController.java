@@ -26,7 +26,7 @@ import com.example.HellTrain.service.ProductService;
 import jakarta.servlet.http.HttpSession;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200/")
+//@CrossOrigin(origins = "http://localhost:4200/")
 @RequestMapping("/product")
 public class ProductController {
 	@Autowired
